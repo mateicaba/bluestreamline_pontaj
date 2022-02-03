@@ -1,0 +1,10 @@
+D:\FormulaStudent\C#_app\BlueStreamline_activity\bin\Debug\BlueStreamline_activity.exe.config
+D:\FormulaStudent\C#_app\BlueStreamline_activity\bin\Debug\BlueStreamline_activity.exe
+D:\FormulaStudent\C#_app\BlueStreamline_activity\bin\Debug\BlueStreamline_activity.pdb
+D:\FormulaStudent\C#_app\BlueStreamline_activity\obj\Debug\BlueStreamline_activity.csprojAssemblyReference.cache
+D:\FormulaStudent\C#_app\BlueStreamline_activity\obj\Debug\BlueStreamline_activity.BlueStreamline.resources
+D:\FormulaStudent\C#_app\BlueStreamline_activity\obj\Debug\BlueStreamline_activity.Properties.Resources.resources
+D:\FormulaStudent\C#_app\BlueStreamline_activity\obj\Debug\BlueStreamline_activity.csproj.GenerateResource.cache
+D:\FormulaStudent\C#_app\BlueStreamline_activity\obj\Debug\BlueStreamline_activity.csproj.CoreCompileInputs.cache
+D:\FormulaStudent\C#_app\BlueStreamline_activity\obj\Debug\BlueStreamline_activity.exe
+D:\FormulaStudent\C#_app\BlueStreamline_activity\obj\Debug\BlueStreamline_activity.pdb
