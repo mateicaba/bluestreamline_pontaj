@@ -41,7 +41,7 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.dgvUser = new System.Windows.Forms.DataGridView();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBoxSearch = new System.Windows.Forms.TextBox();
             this.button3 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -132,6 +132,7 @@
             this.button2.TabIndex = 8;
             this.button2.Text = "Check out";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // pictureBox2
             // 
@@ -143,6 +144,7 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 9;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // dgvUser
             // 
@@ -153,6 +155,7 @@
             this.dgvUser.RowTemplate.Height = 33;
             this.dgvUser.Size = new System.Drawing.Size(880, 693);
             this.dgvUser.TabIndex = 10;
+            this.dgvUser.RowHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgvUser_RowHeaderMouseClick);
             // 
             // textBox2
             // 
@@ -164,13 +167,14 @@
             this.textBox2.TabIndex = 11;
             this.textBox2.Text = "Cauta";
             // 
-            // textBox3
+            // textBoxSearch
             // 
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.875F);
-            this.textBox3.Location = new System.Drawing.Point(1705, 275);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(615, 58);
-            this.textBox3.TabIndex = 12;
+            this.textBoxSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.875F);
+            this.textBoxSearch.Location = new System.Drawing.Point(1705, 275);
+            this.textBoxSearch.Name = "textBoxSearch";
+            this.textBoxSearch.Size = new System.Drawing.Size(615, 58);
+            this.textBoxSearch.TabIndex = 12;
+            this.textBoxSearch.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // button3
             // 
@@ -189,7 +193,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(2429, 1241);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.textBoxSearch);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.dgvUser);
             this.Controls.Add(this.pictureBox2);
@@ -231,7 +235,7 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.DataGridView dgvUser;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBoxSearch;
         private System.Windows.Forms.Button button3;
     }
 }

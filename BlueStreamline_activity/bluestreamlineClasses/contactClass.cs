@@ -26,7 +26,7 @@ namespace BlueStreamline_activity.bluestreamlineClasses
 
         public int userID { get; set; }
 
-        public int Ora { get; set; }
+        public string Ora { get; set; }
 
         static string myconnstrng = ConfigurationManager.ConnectionStrings["connstrng"].ConnectionString;
 
